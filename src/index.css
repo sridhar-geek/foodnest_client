@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+  .icon{
+    @apply  text-main-800
+  }
+
+
+  /* Footer Styles */
+     .footer{
+        @apply  flex justify-center items-center font-bold text-2xl flex-col gap-5
+    }
+    .social{
+        @apply hover:scale-150 text-2xl hover:cursor-pointer
+    }
+    .headings{
+        @apply hover:cursor-pointer hover:underline underline-offset-8 decoration-main-800 duration-1000 ease-in-out
+    }
+    .image{
+      @apply hover:scale-90 cursor-pointer h-8 w-24
+    }
+    .links{
+        @apply text-sm hover:scale-110 font-normal hover:cursor-pointer
+    }
+    .flexitems{
+      @apply flex gap-2 justify-center items-center
+    }
+}
